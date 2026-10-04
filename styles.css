@@ -1,0 +1,156 @@
+body{
+background-color: lightgray;
+}
+h1{
+    color: black;
+    font-size: 70px;
+    font-family: 'Jersey 10', sans-serif;
+    height: 60px;
+}
+
+h2{
+    color: #464646;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Jersey 10', sans-serif;
+
+}
+
+h3{
+    color: #464646;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Jersey 10', sans-serif;
+}
+
+.nav-links {
+    color: black;
+    font-size: 30px;
+    font-family: 'Jersey 10', sans-serif;
+    height: 30px;
+    text-decoration: none;
+}
+
+.main-img{
+    width: 100vw;
+    margin-left: calc(50% - 34vw);
+    height: 500px;
+    opacity: 0.4;
+}
+
+.Get-Started {
+    background-color: #547F6B;
+    color: black;
+    height: 80px;
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 60px;
+    font-family: 'Jersey 10', sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 40px; 
+    left: 73%; 
+    transform: translateX(-50%);
+}
+
+.HomeText{
+    background-color: #547F6B;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 600px;
+    margin-top: -11px;
+    font-family: 'Jersey 10', sans-serif;
+}
+
+.AboutText{
+    background-color: #547F6B;
+    color: #464646;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 300px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+p{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Jersey 10', sans-serif;
+}
+
+.Review{
+    width: 280px;
+    height: 400px;
+    align-items: left;
+    margin-left: 90px;
+}
+
+.Rating{
+    width: 330px;
+    height: 80px;
+}
+
+.Platforms{
+    Opacity: 0.6;
+    width: 600px; 
+    height: 450px; 
+    margin-left: -30px;
+    display: block;
+}
+
+.GameTitle{
+    align-items: Center;
+    font-size: 50px;
+    color: #464646;
+    font-family: 'Jersey 10', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.GameReview{
+    align-items: right;
+    Background-color: #547F6B;
+    height: 280px;
+    font-size: 30px;
+    color: #464646;
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.X{
+    width: 50px;
+    height: 50px;
+}
+.Instagram{
+    width: 60px;
+    height: 60px;
+    margin-top: -2px;
+}
+.Discord{
+    width: 50px;
+    height: 50px;
+}
+
+.contact-button{
+    background-color: #547F6B;
+    color: black;
+    border: none;
+    font-size: 25px;
+    font-family: 'Jersey 10', sans-serif;
+}
+
