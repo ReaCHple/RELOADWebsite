@@ -12,7 +12,7 @@ h1{
 }
 
 h2{
-    color: #303030;
+    color: #1f1e1e;
     font-size: 60px;
     margin-top: 10px;
     margin-left: 5px;
@@ -21,7 +21,7 @@ h2{
 }
 
 h3{
-    color: #303030;
+    color: #1f1e1e;
     margin-left: 15px;
     margin-top: 10px;
     font-size: 50px;
@@ -75,7 +75,7 @@ h3{
 
 .AboutText{
     background-color: #547F6B;
-    color: #464646;
+    color: #1f1e1e;
     width: 100vw;
     margin-left: calc(50% - 50vw);
     height: 300px;
@@ -114,7 +114,7 @@ p{
 .GameTitle{
     align-items: Center;
     font-size: 50px;
-    color: #464646;
+    color: #1f1e1e;
     font-family: 'Jersey 10', sans-serif;
     margin-left: 20px;
     margin-top: 20px;
@@ -125,7 +125,7 @@ p{
     Background-color: #547F6B;
     height: 280px;
     font-size: 30px;
-    color: #464646;
+    color: #1f1e1e;
     margin-left: 10px;
 }
 
@@ -150,7 +150,7 @@ footer{
 }
 
 .contact-button{
-    background-color: #547F6B;
+    background-color: #1f1e1e;
     color: black;
     border: none;
     font-size: 25px;
