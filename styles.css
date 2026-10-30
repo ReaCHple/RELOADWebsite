@@ -168,8 +168,9 @@ footer{
     }
 
     .nav-links {
-        justify-content: center;
         width: 100%;
+        justify-content: center;
+        gap: 12px;
     }
 
     .game-review {
@@ -181,17 +182,35 @@ footer{
         width: 35%;
     }
 
+    .Get-Started {
+        left: 50%;
+        bottom: 25px;
+    }
+
+    .recent-games {
+        gap: 15px;
+    }
+
+    .Review {
+        height: 300px;
+    }
+
     .contact-links {
         justify-content: center;
     }
 }
 
+/* =================================
+   MOBILE RESPONSIVENESS
+================================= */
 
 @media screen and (max-width: 480px) {
 
     body {
         padding: 10px;
     }
+
+    /* Navigation */
 
     .header {
         flex-direction: column;
@@ -203,17 +222,69 @@ footer{
     }
 
     .nav-links {
-        gap: 15px;
+        gap: 5px;
     }
 
     .nav-links a {
-        font-size: 22px;
+        font-size: 21px;
+        padding: 10px 8px;
     }
+
+    /* General headings */
 
     .page-title {
         font-size: 38px;
         text-align: center;
     }
+
+    /* Homepage banner */
+
+    .main-img {
+        height: 280px;
+    }
+
+    .hero h2 {
+        top: 10px;
+        left: 10px;
+        font-size: 40px;
+    }
+
+    .Get-Started {
+        width: 200px;
+        min-height: 60px;
+        font-size: 35px;
+        bottom: 20px;
+        left: 50%;
+    }
+
+    /* Recently released */
+
+    .HomeText {
+        padding: 15px;
+    }
+
+    .HomeText h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .recent-games {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .Review {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        max-height: 400px;
+    }
+
+    .Rating {
+        width: 200px;
+    }
+
+    /* Game review sections */
 
     .game-review {
         flex-direction: column;
@@ -221,7 +292,6 @@ footer{
         text-align: center;
         padding: 15px;
         gap: 10px;
-        margin-bottom: 25px;
     }
 
     .review-image {
@@ -239,16 +309,23 @@ footer{
         margin: 10px 0;
     }
 
-    .Rating {
-        width: 200px;
-        max-width: 100%;
-        margin: 0 auto 10px;
-    }
-
-    p {
+    .review-description {
         font-size: 21px;
         text-align: left;
         line-height: 1.35;
+    }
+
+    /* About page */
+
+    .AboutText {
+        padding: 15px;
+        margin: 25px 0;
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 30px;
     }
 
     .contact-links {
@@ -260,4 +337,5 @@ footer{
         width: 100%;
         max-width: 200px;
     }
+
 }
