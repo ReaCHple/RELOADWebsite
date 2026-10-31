@@ -272,8 +272,8 @@ footer{
 
     .Review {
         width: 100%;
-        max-width: 280px;
-        height: auto;
+        height:90;
+        width:80;
         max-height: none;
         margin-left: 0;
         overflow: visible;
@@ -321,7 +321,7 @@ footer{
     }
 
     .GameTitle {
-        font-size: 15px;
+        font-size: 25px;
         margin: 10px 0;
     }
 
