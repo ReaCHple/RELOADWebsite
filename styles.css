@@ -63,7 +63,7 @@ h3{
     transform: translateX(-50%);
 }
 
-.recent_reviews{
+.recent-reviews{
     gap: 20px;
 }
 
@@ -259,7 +259,7 @@ footer{
         text-align: center;
     }
 
-    .recent-games {
+    .recent-reviews {
         grid-template-columns: 1fr;
         gap: 10px;
         width: 60;
