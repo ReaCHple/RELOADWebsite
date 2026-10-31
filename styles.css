@@ -200,6 +200,7 @@ footer{
         justify-content: center;
         max-width: 100%;
         height: auto;
+        font-size: 25px;
     }
 
     .nav-links a {
@@ -220,7 +221,7 @@ footer{
         width: calc(100% + 20px);
         max-width: none;
         margin-left: -10px;
-        height: 280px;
+        height: 250px;
         object-fit: cover;
     }
 
@@ -255,7 +256,7 @@ footer{
 
     .recent-games {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 10px;
         min-width: 0;
         height: auto;
         justify-items: center;
