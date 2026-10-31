@@ -196,7 +196,7 @@ footer{
 
     .nav-links {
         gap: 5px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         max-width: 100%;
         height: auto;
@@ -257,19 +257,24 @@ footer{
         grid-template-columns: 1fr;
         gap: 30px;
         min-width: 0;
+        height: auto;
+        justify-items: center;
+        align-items: start;
     }
 
     .Review {
         width: 100%;
         max-width: 280px;
         height: auto;
-        max-height: 400px;
+        max-height: none;
         margin-left: 0;
+        overflow: visible;
     }
 
     .Rating {
         width: min(200px, 100%);
         height: auto;
+        object-fit: contain;
     }
 
     .Platforms {
@@ -350,5 +355,4 @@ footer{
         width: 100%;
         max-width: 200px;
     }
-
 }
