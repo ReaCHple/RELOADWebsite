@@ -224,10 +224,10 @@ footer{
 
     
 
-    .hero h2 {
+    h2 {
         top: 10px;
         left: 10px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .HomeText {
@@ -242,8 +242,6 @@ footer{
         font-size: 35px;
         text-align: center;
     }
-
-
 
     .Review {
         width: 100%;
@@ -306,9 +304,9 @@ footer{
                     }
 
     .main-img{
-    width: 100vw;
-    margin-left: calc(50% - 34vw);
-    height: 200px;
+    width: 300px;
+    --margin-left: calc(50% - 34vw);
+    height: 400px;
     opacity: 0.4;
     padding: 10px;
     }
