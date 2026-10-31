@@ -63,6 +63,10 @@ h3{
     transform: translateX(-50%);
 }
 
+.recent_reviews{
+    gap: 20px;
+}
+
 .HomeText{
     background-color: #547F6B;
     width: 100vw;
