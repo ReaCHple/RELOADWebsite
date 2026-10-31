@@ -156,55 +156,11 @@ footer{
     font-family: 'Jersey 10', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-
-    body {
-        padding: 15px;
-    }
-
-    .header {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .nav-links {
-        width: 100%;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .game-review {
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .review-image {
-        width: 35%;
-    }
-
-    .Get-Started {
-        left: 50%;
-        bottom: 25px;
-    }
-
-    .recent-games {
-        gap: 15px;
-    }
-
-    .Review {
-        height: 300px;
-    }
-
-    .contact-links {
-        justify-content: center;
-    }
-}
-
-/* =================================
-   MOBILE RESPONSIVENESS
-================================= */
-
 @media screen and (max-width: 480px) {
+
+    html {
+        overflow-x: clip;
+    }
 
     *,
     *::before,
@@ -214,8 +170,8 @@ footer{
 
     body {
         padding: 10px;
+        width: 100%;
         max-width: 100%;
-        overflow-x: hidden;
     }
 
     img {
@@ -301,7 +257,8 @@ footer{
     }
 
     .Rating {
-        width: 200px;
+        width: 100px;
+        height: 50px'
     }
 
     /* Game review sections */
@@ -316,8 +273,8 @@ footer{
 
     .review-image {
         width: 100%;
-        max-width: 280px;
-        height: 200px;
+        max-width: 180px;
+        height: 100px;
         object-fit: cover;
     }
 
