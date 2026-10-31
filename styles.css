@@ -101,6 +101,16 @@ p{
     margin-left: 90px;
 }
 
+.ReviewL{
+    align-items: left; 
+    margin-left: 90px;
+    }
+
+.ReviewR{
+      align-items: right; margin-right: 90px;  
+    }
+
+
 .Rating{
     width: 330px;
     height: 80px;
@@ -130,6 +140,8 @@ p{
     font-size: 30px;
     color: #1f1e1e;
     margin-left: 10px;
+    width: 350px; 
+    height: 450px;
 }
 
 footer{
@@ -278,6 +290,14 @@ footer{
         margin-left: 0;
         overflow: visible;
     }
+    .ReviewL{
+    }
+    .ReviewM{
+        
+    }
+    .ReviewR{
+        
+    }
 
     .Rating {
         width: min(90px, 100%);
@@ -314,6 +334,8 @@ footer{
         padding: 15px;
         font-size: 21px;
         overflow-wrap: anywhere;
+        width: 250px; 
+        height: 350px;
     }
 
     .review-content {
