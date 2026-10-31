@@ -238,6 +238,7 @@ footer{
         margin-left: -10px;
         height: 250px;
         object-fit: cover;
+        padding-bottom: 5px;
     }
 
     .hero h2 {
@@ -318,14 +319,16 @@ footer{
         text-align: center;
         padding: 15px;
         gap: 10px;
-    }
-
-    .review-image {
-        width: 100%;
         width: 80px;
         height: 100px;
-        object-fit: cover;
     }
+
+    --.review-image {
+  --      width: 100%;
+    --    width: 80px;
+        -- height: 100px;
+      --  object-fit: cover;
+    --}
 
     .GameReview {
         height: auto;
@@ -335,20 +338,9 @@ footer{
         overflow-wrap: anywhere;
     }
 
-    .review-content {
-        width: 100%;
-    }
-
     .GameTitle {
         font-size: 25px;
         margin: 10px 0;
-    }
-
-    .review-description {
-        font-size: 10px;
-        text-align: left;
-        line-height: 1.35;
-        overflow-wrap: anywhere;
     }
 
      .review-card {
@@ -369,16 +361,6 @@ footer{
         margin-left: 0;
         font-size: 23px;
         overflow-wrap: anywhere;
-    }
-
-    /* About page */
-
-    .AboutText {
-        padding: 15px;
-        margin: 25px 0;
-        width: calc(100% + 20px);
-        height: auto;
-        margin-left: -10px;
     }
 
     /* Footer */
