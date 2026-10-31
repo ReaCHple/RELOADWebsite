@@ -156,7 +156,9 @@ footer{
     font-family: 'Jersey 10', sans-serif;
 }
 
-html {
+@media screen and (max-width: 480px) {
+
+    html {
         overflow-x: hidden;
     }
 
