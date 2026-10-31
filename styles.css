@@ -156,10 +156,8 @@ footer{
     font-family: 'Jersey 10', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
-
-    html {
-        overflow-x: clip;
+html {
+        overflow-x: hidden;
     }
 
     *,
@@ -172,6 +170,7 @@ footer{
         padding: 10px;
         width: 100%;
         max-width: 100%;
+        overflow-x: hidden;
     }
 
     img {
@@ -189,6 +188,8 @@ footer{
 
     h1 {
         font-size: 55px;
+        height: auto;
+        line-height: 1;
     }
 
     .nav-links {
@@ -196,6 +197,7 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         max-width: 100%;
+        height: auto;
     }
 
     .nav-links a {
@@ -213,7 +215,9 @@ footer{
     /* Homepage banner */
 
     .main-img {
-        width: 100%;
+        width: calc(100% + 20px);
+        max-width: none;
+        margin-left: -10px;
         height: 280px;
         object-fit: cover;
     }
@@ -236,6 +240,10 @@ footer{
 
     .HomeText {
         padding: 15px;
+        width: calc(100% + 20px);
+        height: auto;
+        min-height: 0;
+        margin-left: -10px;
     }
 
     .HomeText h3 {
@@ -254,11 +262,18 @@ footer{
         max-width: 280px;
         height: auto;
         max-height: 400px;
+        margin-left: 0;
     }
 
     .Rating {
-        width: 100px;
-        height: 50px'
+        width: min(200px, 100%);
+        height: auto;
+    }
+
+    .Platforms {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
     }
 
     /* Game review sections */
@@ -278,6 +293,14 @@ footer{
         object-fit: cover;
     }
 
+    .GameReview {
+        height: auto;
+        margin: 0;
+        padding: 15px;
+        font-size: 21px;
+        overflow-wrap: anywhere;
+    }
+
     .review-content {
         width: 100%;
     }
@@ -291,6 +314,13 @@ footer{
         font-size: 21px;
         text-align: left;
         line-height: 1.35;
+        overflow-wrap: anywhere;
+    }
+
+    p {
+        margin-left: 0;
+        font-size: 23px;
+        overflow-wrap: anywhere;
     }
 
     /* About page */
@@ -298,6 +328,9 @@ footer{
     .AboutText {
         padding: 15px;
         margin: 25px 0;
+        width: calc(100% + 20px);
+        height: auto;
+        margin-left: -10px;
     }
 
     /* Footer */
