@@ -103,14 +103,6 @@ p{
     align-items: left;
     margin-left: 90px;
 }
-.ReviewL{
-    align-items: left; 
-    margin-left: 90px;
-    }
-
-.ReviewR{
-      align-items: right; margin-right: 90px;  
-    }
 .Rating{
     width: 330px;
     height: 80px;
@@ -126,7 +118,7 @@ p{
 
 .GameTitle{
     align-items: Center;
-    font-size: 20px;
+    font-size: 30px;
     color: #1f1e1e;
     font-family: 'Jersey 10', sans-serif;
     margin-left: 20px;
@@ -232,14 +224,7 @@ footer{
 
     /* Homepage banner */
 
-    .main-img {
-        width: calc(100% + 20px);
-        max-width: none;
-        margin-left: -10px;
-        height: 250px;
-        object-fit: cover;
-        padding-bottom: 5px;
-    }
+    
 
     .hero h2 {
         top: 10px;
@@ -247,15 +232,9 @@ footer{
         font-size: 40px;
     }
 
-    .Get-Started {
-        width: 200px;
-        min-height: 60px;
-        font-size: 35px;
-        bottom: 20px;
-        left: 50%;
-    }
+  
 
-    /* Recently released */
+  
 
     .HomeText {
         padding: 15px;
@@ -270,16 +249,7 @@ footer{
         text-align: center;
     }
 
-    .recent-reviews {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        width: 60;
-        height: 90;
-        min-width: 0;
-        height: auto;
-        justify-items: center;
-        align-items: start;
-    }
+
 
     .Review {
         width: 100%;
@@ -288,15 +258,6 @@ footer{
         max-height: none;
         margin-left: 0;
         overflow: visible;
-    }
-
-    .ReviewL{
-    align-items: left; 
-    margin-left: 20px;
-    }
-
-.ReviewR{
-      align-items: right; margin-right: 20px;  
     }
 
     .Rating {
@@ -322,13 +283,6 @@ footer{
         width: 80px;
         height: 100px;
     }
-
-    --.review-image {
-  --      width: 100%;
-    --    width: 80px;
-        -- height: 100px;
-      --  object-fit: cover;
-    --}
 
     .GameReview {
         height: auto;
