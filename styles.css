@@ -99,7 +99,14 @@ p{
     align-items: left;
     margin-left: 90px;
 }
+.ReviewL{
+    align-items: left; 
+    margin-left: 90px;
+    }
 
+.ReviewR{
+      align-items: right; margin-right: 90px;  
+    }
 .Rating{
     width: 330px;
     height: 80px;
@@ -276,6 +283,15 @@ footer{
         max-height: none;
         margin-left: 0;
         overflow: visible;
+    }
+
+    .ReviewL{
+    align-items: left; 
+    margin-left: 20px;
+    }
+
+.ReviewR{
+      align-items: right; margin-right: 20px;  
     }
 
     .Rating {
