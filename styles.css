@@ -283,6 +283,7 @@ footer{
                         height: 400px;
                         opacity: 0.4;
                         padding: 10px;
+                        margin-left: calc(50% - 50vw);
                     }
                 }
                     .AboutText p {
