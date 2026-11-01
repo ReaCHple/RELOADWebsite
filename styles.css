@@ -280,15 +280,15 @@ footer{
                         display: block;
                         width: 600px;
                         max-width: none;
-                        height: 400px;
+                        height: 370px;
                         opacity: 0.4;
-                        padding: 10px;
+                        padding: 5px;
                         margin-left: calc(50% - 50vw);
                     }
                 }
                     .AboutText p {
                         box-sizing: border-box;
-                        margin: 0 15px 20px;
+                        margin: 0 10px 15px;
                         font-size: clamp(1rem, 4.5vw, 1.2rem);
                         line-height: 1.5;
                         overflow-wrap: anywhere;
