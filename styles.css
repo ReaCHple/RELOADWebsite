@@ -229,19 +229,20 @@ footer{
         left: 10px;
         font-size: 30px;
     }
+/*
+    --.HomeText {
+      --  padding: 15px;
+       -- width: calc(100% + 20px);
+        -- height: auto;
+       -- min-height: 0;
+        -- margin-left: -10px;
+    -- }
 
-    .HomeText {
-        padding: 15px;
-        width: calc(100% + 20px);
-        height: auto;
-        min-height: 0;
-        margin-left: -10px;
-    }
-
-    .HomeText h3 {
-        font-size: 35px;
-        text-align: center;
-    }
+   -- .HomeText h3 {
+     --   font-size: 35px;
+       -- text-align: center;
+    --}
+    */
 
     .Review {
         width: 100%;
@@ -302,6 +303,7 @@ footer{
                     .review-card > div {
                         width: 100%;
                     }
+/*about */
 
     .main-img{
     width: 300px;
@@ -311,16 +313,43 @@ footer{
     padding: 10px;
     }
 
-    .AboutText{
-    background-color: #547F6B;
-    color: #1f1e1e;
-    width: 80px;
-    height: 100px;
-    font-size: 21px;
-    margin-left: calc(50% - 50vw);
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+     .about-hero {
+                        display: block !important;
+                        width: 100vw;
+                        margin-left: calc(50% - 50vw);
+                    }
+
+                    .about-hero .main-img {
+                        display: block;
+                        width: 100%;
+                        max-width: none;
+                        height: auto;
+                    }
+                }
+
+.about-hero h2 {
+                        box-sizing: border-box;
+                        max-width: calc(100% - 24px);
+                        padding: 8px 12px;
+                        color: white;
+                        background: rgba(0, 0, 0, 0.65);
+                        font-size: clamp(1.5rem, 8vw, 2.5rem);
+                        line-height: 1.1;
+                        overflow-wrap: anywhere;
+                    }
+
+                    .AboutText h2 {
+                        font-size: clamp(1.25rem, 6vw, 1.75rem);
+                    }
+
+                    .AboutText p {
+                        box-sizing: border-box;
+                        margin: 0 15px 20px;
+                        font-size: clamp(1rem, 4.5vw, 1.2rem);
+                        line-height: 1.5;
+                        overflow-wrap: anywhere;
+                    }
+                }
 
     p {
         margin-left: 0;
