@@ -229,43 +229,6 @@ footer{
         left: 10px;
         font-size: 30px;
     }
-/*
-    --.HomeText {
-      --  padding: 15px;
-       -- width: calc(100% + 20px);
-        -- height: auto;
-       -- min-height: 0;
-        -- margin-left: -10px;
-    -- }
-
-   -- .HomeText h3 {
-     --   font-size: 35px;
-       -- text-align: center;
-    --}
-    */
-
-   /* .Review {
-        width: 100%;
-        height:90;
-        width:80;
-        max-height: none;
-        margin-left: 0;
-        overflow: visible;
-    }
-
-    .Rating {
-        width: min(90px, 100%);
-        height: auto;
-        object-fit: contain;
-    }
-
-    .Platforms {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-    }
-    */
-
     /* Game review sections */
 
     .game-review {
@@ -306,13 +269,13 @@ footer{
                     }
 /*about */
 
-    .main-img{
+   /* .main-img{
     width: 100%;
-    --margin-left: calc(50% - 34vw);
+   --margin-left: calc(50% - 34vw);
     height: 400px;
     opacity: 0.4;
     padding: 10px;
-    }
+    }*/ 
 
      .about-hero {
                         display: block !important;
@@ -325,6 +288,8 @@ footer{
                         width: 100%;
                         max-width: none;
                         height: auto;
+                        opacity: 0.4;
+                        padding: 10px;
                     }
                 }
 
