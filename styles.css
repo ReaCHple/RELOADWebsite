@@ -269,13 +269,6 @@ footer{
                     }
 /*about */
 
-   /* .main-img{
-    width: 100%;
-   --margin-left: calc(50% - 34vw);
-    height: 400px;
-    opacity: 0.4;
-    padding: 10px;
-    }*/ 
 
      .about-hero {
                         display: block !important;
@@ -285,29 +278,13 @@ footer{
 
                     .about-hero .main-img {
                         display: block;
-                        width: 100%;
+                        width: 300px;
                         max-width: none;
-                        height: auto;
+                        height: 200px;
                         opacity: 0.4;
                         padding: 10px;
                     }
                 }
-
-/*.about-hero h2 {
-                        box-sizing: border-box;
-                        max-width: calc(100% - 24px);
-                        padding: 8px 12px;
-                        color: white;
-                        background: rgba(0, 0, 0, 0.65);
-                        font-size: clamp(1.5rem, 8vw, 2.5rem);
-                        line-height: 1.1;
-                        overflow-wrap: anywhere;
-                    }
-
-                    .AboutText h2 {
-                        font-size: clamp(1.25rem, 6vw, 1.75rem);
-                    }*/
-
                     .AboutText p {
                         box-sizing: border-box;
                         margin: 0 15px 20px;
