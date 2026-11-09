@@ -159,6 +159,7 @@ footer{
 .contact-button{
     background-color: #1f1e1e;
     color: black;
+    font-color: white;
     border: none;
     font-size: 25px;
     font-family: 'Jersey 10', sans-serif;
