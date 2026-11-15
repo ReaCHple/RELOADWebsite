@@ -75,10 +75,10 @@
                 starFilter.addEventListener("change", function () {
                     const selectedRating = starFilter.value;
 
-                    document.querySelectorAll(".review-card").forEach(function (card) {
-                        const ratingImage = card.querySelector(".Rating");
-                        const ratingImageName = ratingImage.src.split("/").pop();
-                        card.style.display = selectedRating === "all" || ratingImageName === selectedRating
+                    document.querySelectorAll(".Rating").forEach(function (ratingImage) {
+                        const review = ratingImage.parentElement.parentElement;
+                        const ratingImageName = new URL(ratingImage.src).pathname.split("/").pop();
+                        review.style.display = selectedRating === "all" || ratingImageName === selectedRating
                             ? "flex"
                             : "none";
                     });
