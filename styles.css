@@ -164,6 +164,12 @@ footer{
     font-family: 'Jersey 10', sans-serif;
 }
 
+.star-filter{
+    color: black;
+    font-size: 30px;
+    font-family: 'Jersey 10', sans-serif;
+}
+
 @media screen and (max-width: 480px) {
 
     html {
