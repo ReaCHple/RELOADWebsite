@@ -23,6 +23,17 @@
             </div>
 
             <h3>NINTENDO SWITCH</h3>
+
+            <label for="star-filter">Filter by rating:</label>
+                <select id="star-filter">
+                    <option value="all">All ratings</option>
+                    <option value="5stars.png">5 stars</option>
+                    <option value="4stars.png">4 stars</option>
+                    <option value="3stars.png">3 stars</option>
+                    <option value="2stars.png">2 stars</option>
+                    <option value="1star.png">1 star</option>
+                </select>
+            
             <div class="review-card" style="display: flex; align-items: center; justify-content: space-between; gap: 20px; background-color: #547F6B; margin-bottom: 20px;">
                 <img src="./Images/SR1.webp" alt="Switch Review 1" class="GameReview" style="width: 350px; height: 450px;">
                     <div>
@@ -56,6 +67,22 @@
                     <button class="contact-button" style="width: 153px; height: 50px; flex: 0 0 auto;">CONTACT US</button>
                 </div>
             </footer>
+
+            <script>
+                const starFilter = document.getElementById("star-filter");
+
+                starFilter.addEventListener("change", function () {
+                    const selectedRating = starFilter.value;
+
+                    document.querySelectorAll(".review-card").forEach(function (card) {
+                        const ratingImage = card.querySelector(".Rating");
+                        const ratingImageName = ratingImage.src.split("/").pop();
+                        card.style.display = selectedRating === "all" || ratingImageName === selectedRating
+                            ? "flex"
+                            : "none";
+                    });
+                });
+            </script>
             </body>
     </html>
             </footer>
